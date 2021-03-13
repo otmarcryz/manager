@@ -5,6 +5,7 @@ then
 echo "Ejecute el script como root"
 exit
 fi
+clear
 echo -e "\033[1;30mInstalando...\033[0m"
 mkdir /etc/VpsPackdir 2>/dev/null
 mkdir /etc/VpsPackdir/limite 2>/dev/null
